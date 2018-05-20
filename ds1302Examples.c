@@ -2,7 +2,7 @@
  * ds1302Examples.c
  *
  * Created: 19/05/2018 07:04:55 p. m.
- *  Author: José Rodrigo
+ *  Author: Charles
  */ 
 #define F_CPU 1000000UL
 #include <util/delay.h>
