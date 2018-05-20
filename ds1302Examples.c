@@ -25,8 +25,7 @@ int main(void)
 	set_ds1302(0x82,0x45);//minutos
 	set_ds1302(0x80,0x55);//segundos
 	DDRB=255;
-	uint8_t datax=0b10000010;
-	datax|=(0b00000001 & (datax>>1)   );
+	
 	
     while(1)
     {
